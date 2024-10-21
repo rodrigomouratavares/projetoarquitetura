@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root
+{
+    --fonte-principal: "inter", serif;
+    --cor-primaria:#FFFFFF;
+    --cor-secundaria:#000000;
+    --cor-botao: #C07212;
+    --cor-cabecalho: #303030;
+
+
+}
+
+*{
+
+    margin: 0px;
+    font-family: var(--fonte-principal);
+}
+
+#cabecalho__arquitetura {
+background: var(--cor-cabecalho);
+padding:180px 300px 130px 60px ;
+font-weight: 600;
+font-size: 30px;
+}
+
+.cabecalho__titulo{
+     color: var(--cor-primaria);
+     margin-bottom: 20px;
+     
+
+}
+
+.cabecalho__subtitulo{
+    color: var(--cor-primaria);
+   font-weight: 500;
+   font-size: 20px;
+
+}
+#informacoes{
+    display: grid;
+    grid-auto-flow:column;
+    padding: 3em 5em;
+    background-color: #F9F9F9;
+}
+#informacoes__descricao{
+    font-weight: 400;
+    padding-left: 100px;
+    padding-top: 20px;
+    color: var(--cor-secundaria);
+}
+.numeros{
+    font-size: 30px;
+    
+}
+
+
+#arquitetura{
+    display: grid;
+    grid-auto-flow:column;
+
+}
+
+#historia{
+    margin:200px 64px 0px 77px;
+    text-align: center;
+}
+.historia__titulo{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.historia__descricao{
+font-weight: 300;
+}
+
+#imagem-arquitetura{
+    margin-top:60px ;
+    margin-bottom: 90px;
+}
+#formulario{
+    
+    padding: 50px;
+    text-align: center;
+    background-color: var(--cor-cabecalho);
+    
+}
+.formulario__titulo{
+    margin-bottom: 40px;
+}
+
+.formulario__dados{
+    display: grid;
+    justify-content: center;
+   
+    
+}
+input{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: 0px;
+    background-color:var(--cor-primaria) ;
+}
+.formulario__botao{
+    Width:240px;
+    Height:70px;
+    margin: 2em 0px 0px 10em;
+    border: 0px;
+    border-radius: 10px;
+    color:var(--cor-primaria) ;
+    background-color: var(--cor-botao);
+    cursor: pointer;
+}
+.formulario__botao:hover{
+    transform: translateY(-7px);
+    background-color: #D1603D;
+    transition: 0.5s;
+    color: #34495e;
+}
+
+  
+.seta{
+    padding: 0 0 350px 0; 
+    margin:0 1em;
+    height: 30px;
+}
