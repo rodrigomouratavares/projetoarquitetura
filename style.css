@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 :root
 {
@@ -74,10 +73,7 @@ font-size: 30px;
 font-weight: 300;
 }
 
-#imagem-arquitetura{
-    margin-top:60px ;
-    margin-bottom: 90px;
-}
+
 #formulario{
     
     padding: 50px;
@@ -121,9 +117,37 @@ input{
     color: #34495e;
 }
 
-  
-.seta{
-    padding: 0 0 350px 0; 
-    margin:0 1em;
-    height: 30px;
+#carrocel-Imagem-Arquitetura {
+    display: flex;
+    align-items: center; /* Alinha verticalmente as setas e a imagem */
+    justify-content: space-between; /* Espaça as setas e a imagem */
+    margin-top: 60px;
+    margin-bottom: 90px;
+    margin-right: 7em;
+}
+
+#arquitetura-Sala{
+    width: 480px;
+    height: 550px;
+}
+#arquitetura-Quarto{
+    display: none;
+    width: 480px;
+    height: 550px;
+    border-radius: 2em;
+}
+
+.seta {
+    cursor: pointer; /* Adiciona um cursor de ponteiro */
+    height: 30px; /* Definindo uma altura fixa */
+
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+}
+
+#seta-esquerda{
+    display: none;
+ 
 }

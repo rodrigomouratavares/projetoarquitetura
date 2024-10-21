@@ -11,7 +11,7 @@
     <div id="cabecalho__arquitetura">
         <h1 class="cabecalho__titulo">Tradição em projetos de arquitetura</h1>
 
-        <p class="cabecalho__subtitulo">Arquitetura residencial e comercial. </p:>
+        <p class="cabecalho__subtitulo">Arquitetura residencial e comercial. </p>
     </div>
 
     <div id="informacoes">
@@ -30,10 +30,13 @@
     <h1 class="historia__titulo">Arquitetos com História e Experiência.</h1>
     <p class="historia__descricao">Nós realizamos desde 2002 projetos e gerenciamento de obras.<br> Com mais de 800 projetos e 2.000.000 de m² construídos, tendo<br> como principal proposta transformar em realidade os sonhos de<br> seus clientes, criando projetos personalizados, unindo a tradição<br> e a modernidade em nossos projetos<br></p>
 </div>
-    <div id="imagem-arquitetura">
-        <img  class="seta" src="icon/seta-esquerda.svg">
-        <img src="img/imagem-arquitetura.svg" alt="sala com sofá, poltronas e cadeiras. Com uma escada que da em um outro compartimento">
-        <img  class="seta" src="icon/seta-direita.svg">
+    <div id="carrocel-Imagem-Arquitetura">
+        <img id="seta-esquerda" class="seta" onclick="setaCarrocelEsquerda()" src="icon/seta-esquerda.svg">
+
+        <img id="arquitetura-Sala" src="img/imagem-arquitetura.svg" alt="sala com sofá, poltronas e cadeiras. Com uma escada que da em um outro compartimento">
+        <img id="arquitetura-Quarto" src="img/arquiteturaQuarto.jpg" alt="quarto">
+
+        <img id="seta-direita" class="seta" onclick="setaCarrocelDireita()" src="icon/seta-direita.svg">
     </div>
     </div>
     
@@ -49,5 +52,6 @@
         </form>
 
     </div>
+    <script src="/script.js"></script>
 </body>
 </html>
