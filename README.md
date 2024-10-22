@@ -2,6 +2,10 @@
 
 # Projeto de Carrossel - Tradição em Projetos de Arquitetura
 
+## planilha excel:  https://docs.google.com/spreadsheets/d/1RGPpbwf_V41TtYi_C7-wSTxHTPIYA4x8NBIdDkktaKk/edit
+
+## site no netlify https://stalwart-melba-349474.netlify.app/
+
 ## Descrição
 
 Este projeto foi desenvolvido como parte de um desafio da DNC, com o objetivo de demonstrar a tradição em projetos de arquitetura. Utilizando HTML, CSS e JavaScript, foi implementado um carrossel interativo que destaca as características e serviços oferecidos.
